@@ -1,4 +1,4 @@
-#kubectl testkube create test --name artillery-api-test --file test.yaml --type artillery/test
+# kubectl testkube create test --name artillery-api-test --file test.yaml --type artillery/test
 
 config:
   target: "http://testkube-api-server:8088"
